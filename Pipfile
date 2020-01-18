@@ -17,6 +17,6 @@ python_version = "3.6"
 
 [scripts]
 v = "python --version"
-start = "python manager.py runserver"
+start = "python manage.py runserver"
 ut = "py.test -v --capture=no --cov-config .coveragerc --cov=sample ."
 lint = "flake8 --max-line-length=100 --ignore=E203,W503 ./sample"
