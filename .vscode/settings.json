@@ -18,6 +18,7 @@
     "python.testing.pytestEnabled": true,
     "python.testing.pytestPath": "${workspaceFolder}/.venv/bin/py.test",
     "python.testing.pytestArgs": [
-        "sample"
+        "sample",
+        "event"
     ],
 }

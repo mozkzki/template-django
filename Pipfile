@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+django = "==2.2.9"
 
 [dev-packages]
 "flake8" = "==3.6.0"
@@ -13,7 +14,7 @@ black = "==18.9b0"
 pytest-cov = "==2.6.0"
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"
 
 [scripts]
 v = "python --version"
