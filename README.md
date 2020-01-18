@@ -1,22 +1,4 @@
-# python-template
-
-## Installation
-
-```(sh)
-pip install git+https://github.com/yukkun007/python-template
-```
-
-## Usage
-
-```(sh)
-pytemp
-```
-
-## Uninstall
-
-```(sh)
-pip uninstall pytemp
-```
+# django-template
 
 ## Development
 
@@ -40,7 +22,7 @@ export PIPENV_VENV_IN_PROJECT=true
 set PIPENV_VENV_IN_PROJECT=true
 ```
 
-1. `git clone git@github.com:yukkun007/python-template.git`
+1. `git clone git@github.com:yukkun007/django-template.git`
 1. `pip install pipenv`
 1. `pipenv install --dev`
 
@@ -60,12 +42,4 @@ pipenv run ut
 
 ```(sh)
 pipenv run lint
-```
-
-### local packaging test
-
-```(sh)
-pip install -e .
-pytemp
-pip uninstall pytemp
 ```
