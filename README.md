@@ -4,7 +4,7 @@
 
 ### Prerequisites
 
-* pipenv
+- pipenv
 
 ### Preparation
 
@@ -32,6 +32,12 @@ set PIPENV_VENV_IN_PROJECT=true
 pipenv run start
 ```
 
+下記にアクセス
+
+- http://127.0.0.1:8000/
+- http://127.0.0.1:8000/event/
+- http://127.0.0.1:8000/event/table/
+
 ### unit test
 
 ```(sh)
@@ -46,13 +52,13 @@ pipenv run lint
 
 ## 参考
 
-### Djangoプロジェクト作成
+### Django プロジェクト作成
 
 ```(sh)
 django-admin startproject <project_name>
 ```
 
-### Djangoアプリケーション作成
+### Django アプリケーション作成
 
 ```(sh)
 python manage.py startapp <app_name>
