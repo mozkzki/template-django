@@ -19,6 +19,8 @@ from sample import views
 
 urlpatterns = [
     path("", views.index, name="index"),
+    path("get/", views.index_get, name="index_get"),
+    path("post/", views.index_post, name="index_post"),
     path("event/", include("event.urls")),
     path("admin/", admin.site.urls),
 ]

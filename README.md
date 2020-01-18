@@ -34,9 +34,11 @@ pipenv run start
 
 下記にアクセス
 
-- http://127.0.0.1:8000/
-- http://127.0.0.1:8000/event/
-- http://127.0.0.1:8000/event/table/
+- <http://127.0.0.1:8000/>
+- <http://127.0.0.1:8000/get/>
+- <http://127.0.0.1:8000/get/?user=hoge>
+- <http://127.0.0.1:8000/event/>
+- <http://127.0.0.1:8000/event/table/>
 
 ### unit test
 
