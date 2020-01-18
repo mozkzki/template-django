@@ -43,3 +43,17 @@ pipenv run ut
 ```(sh)
 pipenv run lint
 ```
+
+## 参考
+
+### Djangoプロジェクト作成
+
+```(sh)
+django-admin startproject <project_name>
+```
+
+### Djangoアプリケーション作成
+
+```(sh)
+python manage.py startapp <app_name>
+```
