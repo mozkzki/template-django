@@ -6,7 +6,7 @@ authors = ["mozkzki"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-Django = "^4.1.7"
+Django = "^4.2"
 
 [tool.poetry.dev-dependencies]
 flake8 = "5.0.4"
